@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="dictionary.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Dictionary</h1>
+
+      <form id="form">
+        <div class="input-field">
+          <input type="text" placeholder="Search for a word" id="input" />
+          <img id="clear-input" src="remove.png" alt="" />
+        </div>
+        <button type="submit" id="button">Search</button>
+      </form>
+    </header>
+
+    <div class="welcome">
+      <p>Welcome to the Dictionary App.</p>
+
+      <section>
+        <p>Search for any possible words and get to know its:</p>
+
+        <ul>
+          <li>Phonetics</li>
+          <li>Part of Speech</li>
+          <li>Antonyms</li>
+          <li>Synonyms</li>
+          <li>Definations</li>
+          <li>Any Examples</li>
+        </ul>
+      </section>
+
+      <p>
+        Or check out the complete info at
+        <a
+          href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page"
+          target="_blank"
+          >Wiktionary</a
+        >
+      </p>
+    </div>
+    <div class="results"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
