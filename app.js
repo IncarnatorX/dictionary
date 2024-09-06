@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let data = await apiResponse.json();
 
-        console.log(data);
+        // console.log(data);
 
         let userWord = data[0].word;
         let phonetic = data[0].phonetic || "None";
