@@ -1,3 +1,3 @@
 # dictionary
 
-https://user-vishnu.github.io/dictionary/
+https://IncarnatorX.github.io/dictionary/
